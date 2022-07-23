@@ -470,7 +470,7 @@ body {
     color: white;
 }
 
-.footer_copyright {
+.footer_contact_mail {
     font-weight: 300;
 }
 
@@ -482,6 +482,20 @@ body {
     width: 30px;
 }
 
+.footer_social {
+    margin-bottom: 25px;
+}
+
+.footer_contact_container {
+    display: flex;
+    justify-content: center;
+}
+.prevent-select {
+    background-color: #1D293F;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
 
 
 /* Media queries   [mobile mode] */
