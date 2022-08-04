@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#2091f9">
 
     <!-- Primary Meta Tags -->
-<title>Pagina web practica JS</title>
+<title>Pagina web html css y js</title>
 <meta name="title" content="Pagina web practica JS">
 <meta name="description" content="Mi pagina web utilizando mis conocimientos de html, css y javascript">
 
@@ -33,21 +33,21 @@
     <header class="hero">
         <nav class="nav container">
             <div class="nav_logo">
-                <h2 class="nav_title">My portfolio</h2>
+                <h2 class="nav_title"></h2>
             </div>
 
             <ul class="nav_link nav_link--menu">
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Yo</a>
+                    <a href="#about" class="nav_links">About the course</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">conocimientos</a>
+                    <a href="#testimo" class="nav_links">Testimonios</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">proyectos</a>
+                    <a href="#preguntas-rec" class="nav_links">Preguntas Frecuentes</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Contacto</a>
+                    <a href="#contact" class="nav_links">Contacto</a>
                 </li>
 
                 <img src="./images/x-circle.svg" alt="x" class="nav_x">
@@ -58,34 +58,41 @@
         </nav>
 
         <section class="hero_container container">
-            <h1 class="hero_title">Aprende CSS desde cero!</h1>
-            <p class="hero_paragraph"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus at praesentium cupiditate harum atque! Sit, repudiandae autem perferendis ratione possimus obcaecati adipisci magnam minima odio odit maxime aliquam consectetur expedita?</p>
-            <a href="#" class="cta"> comienza ahora</a>
+            <h1 class="hero_title">Mi primera pagina web</h1>
+            <p class="hero_paragraph"> El desarrollo de esta pagina he utilizado html, css y java script. Para el desarrollo de las siguientes secciones se simulara la venta de un producto ficticio.</p>
+            <p class="hero_paragraph">CURSO DE COCINA PROFESIONAL</p>
+            <a href="#prices" class="cta">Aprende ahora</a>
         </section>
     </header>
 
     <main>
-        <section class="container about">
+        <section class="container about" id="about">
             <h2 class="subtitle">Que aprenderas en este curso?</h2>
             <p class="about_paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom Propeties, animations, box models and moref)</p>
 
             <div class="about_main">
                 <article class="about_icons">
                     <img src="./images/code_alt.svg" class="about_icon">
-                    <h3 class="about_title">CSS Layouts</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit animi sed inventore voluptate odit dignissimos soluta dolor incidunt accusantium, ab sapiente quos praesentium numquam debitis, ipsa quod repudiandae nemo expedita?</p>
+                    <h3 class="about_title">Cocina</h3>
+                    <p class="about_paragraph">Asimilar los fundamentos básicos de la culinaria y la gastronomía
+                        Conocer el diseño de diferentes de tipos de alimentos por medio de la cocina internaciona
+                    </p>
                 </article>
 
                 <article class="about_icons">
                     <img src="./images/animations.svg" class="about_icon">
-                    <h3 class="about_title">Animations</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit animi sed inventore voluptate odit dignissimos soluta dolor incidunt accusantium, ab sapiente quos praesentium numquam debitis, ipsa quod repudiandae nemo expedita?</p>
+                    <h3 class="about_title">¿A quién está dirigido?</h3>
+                    <p class="about_paragraph">Este curso de cocina profesional está dirigido a estudiantes, padres de familia y en general a todos aquellos interesados en aprender a crear diferentes tipos de alimentos y bebidas, ya sea para su consumo personal o para iniciar un emprendimiento a partir de ellos. Si deseas complementar tus conocimientos</p>
                 </article>
 
                 <article class="about_icons">
                     <img src="./images/code.svg" class="about_icon">
-                    <h3 class="about_title">SDFASf</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit animi sed inventore voluptate odit dignissimos soluta dolor incidunt accusantium, ab sapiente quos praesentium numquam debitis, ipsa quod repudiandae nemo expedita?</p>
+                    <h3 class="about_title">Te aconsejamos los siguientes cursos</h3>
+                    <p class="about_paragraph">
+                        Curso de gastronomía.<br>
+                        Curso de coctelería.<br>
+                        Curso de barista.   <br>
+                        Curso de bartender.</p>
                 </article>
             </div>
         </section>
@@ -93,56 +100,56 @@
         <section class="knowledge">
             <div class="knowledge_container container">
                 <div class="knowledge_texts">
-                    <h2 class="subtitle">Curso completo de css3 domina css de una vez por todas</h2>
+                    <h2 class="subtitle">Obten un diploma internacional que te certifica como cocinero profesional</h2>
                     <p class="knowledge_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nulla adipisci, officia eius quos sed provident deleniti natus, et maxime eveniet harum est atque delectus, dolores fugiat nemo architecto hic?</p>
-                    <a href="#" class="cta">Entra al curso</a>
+                    <a href="#prices" class="cta">Entra al curso</a>
                 </div>
 
                 <figure class="knowledge_picture">
-                    <img src="./images/macbook.png" class="knowledge_img">
+                    <img src="./images/new-knowledge_picture.jpeg" class="knowledge_img">
                 </figure>
 
             </div>
         </section>
 
-        <section class="price container">
-            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+        <section class="price container" >
+            <h2 class="subtitle" id="prices">Obten el plan perfecto</h2>
 
             <div class="price_table">
                 <div class="price_element">
-                    <p class="price_name">Fletbox</p>
+                    <p class="price_name"></p>
                     <h3 class="price_price">Free</h3>
 
                     <div class="price_items">
-                        <p class="price_features">Flexbox</p>
-                        <p class="price_features">Layouts</p>
-                        <p class="price_features">Responsive</p>
+                        <p class="price_features">Recetas</p>
+                        <p class="price_features">Tutoriales basicos</p>
+                        <p class="price_features">Lorem</p>
                     </div>
 
                     <a href="#" class="price_cta">Empieza ahora</a>
                 </div>
 
                 <div class="price_element price_element--best">
-                    <p class="price_name">Grid</p>
+                    <p class="price_name">Más vendido</p>
                     <h3 class="price_price">$30/month</h3>
 
                     <div class="price_items">
-                        <p class="price_features">Grid</p>
-                        <p class="price_features">Implicit Grid</p>
-                        <p class="price_features">Responsive</p>
+                        <p class="price_features">Suscripcion para 2 usuarios</p>
+                        <p class="price_features">Acceso al curso completo</p>
+                        <p class="price_features">Sin anuncios</p>
                     </div>
 
                     <a href="#" class="price_cta">Empieza ahora</a>
                 </div>
 
                 <div class="price_element">
-                    <p class="price_name">Animaciones</p>
+                    <p class="price_name">Mejor valorado</p>
                     <h3 class="price_price">$50/month</h3>
 
                     <div class="price_items">
-                        <p class="price_features">Animation</p>
-                        <p class="price_features">Transition</p>
-                        <p class="price_features">Render website</p>
+                        <p class="price_features">Suscripcion para 5 usuarios</p>
+                        <p class="price_features">Acceso al curo completo</p>
+                        <p class="price_features">Sin anuncios</p>
                     </div>
 
                     <a href="#" class="price_cta">Empieza ahora</a>
@@ -150,13 +157,13 @@
             </div>
         </section> 
 
-        <section class="testimony">
+        <section class="testimony" id="testimo">
             <div class="testimony_container container">
                 <img src="./images/arrrow-left.svg" class="testimony_arrow" id="before">
 
                 <section class="testimony_body testimony_body--show" data-id="1">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony_course">estudiante de css</span></h2>
+                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony_course">estudiante de cocina</span></h2>
                         <p class="testimony_review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum necessitatibus consectetur quam nihil repellendus tempora dolorum voluptatum, neque quae ratione magni rem quasi dignissimos rerum, quis eveniet amet distinctio non.</p>
                     </div>
 
@@ -166,7 +173,7 @@
                 </section>
                 <section class="testimony_body" data-id="2">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Lauroa Espinoza, <span class="testimony_course">estudiante de css</span></h2>
+                        <h2 class="subtitle">Mi nombre es Lauroa Espinoza, <span class="testimony_course">estudiante de cocina</span></h2>
                         <p class="testimony_review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum necessitatibus consectetur quam nihil repellendus tempora dolorum voluptatum, neque quae raos rerum, quis eveniet amet distinctio non.</p>
                     </div>
 
@@ -176,7 +183,7 @@
                 </section>
                 <section class="testimony_body" data-id="3">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Juana Ines, <span class="testimony_course">estudiante de css</span></h2>
+                        <h2 class="subtitle">Mi nombre es Juana Ines, <span class="testimony_course">estudiante de cocina</span></h2>
                         <p class="testimony_review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum necessitatibus consectetur qu neque quae ratione magni rem quasi dignissimos rerum, quis eveniet amet distinctio non.</p>
                     </div>
 
@@ -188,14 +195,14 @@
             </div>
         </section>
 
-        <section class="questions container">
+        <section class="questions container" id="preguntas-rec">
             <h2 class="subtitle">Preguntas frecuentes</h2>
             <p class="questions_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod</p>
 
             <section class="questions_container">
                 <article class="questions_padding">
                     <div class="questions_answer">
-                        <h3 class="questions_title">Que es CSs?
+                        <h3 class="questions_title">Que aprendere en este curso?
                             <span class="questions_arrow">
                                 <img src="./images/arrow_down.svg" class="questions_img">
                             </span>
@@ -205,7 +212,7 @@
                 </article>
                 <article class="questions_padding">
                     <div class="questions_answer">
-                        <h3 class="questions_title">Que es CSs grid?
+                        <h3 class="questions_title">Cuales son los metodos de pago aceptados?
                             <span class="questions_arrow">
                                 <img src="./images/arrow_down.svg" class="questions_img">
                             </span>
@@ -215,7 +222,7 @@
                 </article>
                 <article class="questions_padding">
                     <div class="questions_answer">
-                        <h3 class="questions_title">Que aprendere en este curso?
+                        <h3 class="questions_title">Como pedir un rembolso
                             <span class="questions_arrow">
                                 <img src="./images/arrow_down.svg" class="questions_img">
                             </span>
@@ -226,30 +233,30 @@
             </section>
 
             <section class="questions_offer">
-                <h2 class="subtitle">Estas listo para aprender css?</h2>
+                <h2 class="subtitle">Estas listo para ser un chef profesional?</h2>
                 <p class="questions_copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem quaerat ratione ex nam archum.itecto omnis distinctio, aspernatur voluptate odio at quos dolor, alias deserunt? Iste beatae quisquam explicabo har</p>
-                <a href="#" class="cta">Aprende ahora</a>
+                <a href="#prices" class="cta">Aprende ahora</a>
             </section>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <section class="footer_container container">
             <nav class="nav nav--footer">
-                <h2 class="footer_title">Curso CSS</h2>
+                <h2 class="footer_title">Curso de cocina</h2>
 
                 <ul class="nav_link nav_link--footer">
                     <li class="nav_items">
-                        <a href="#" class="nav_links">Yo</a>
+                        <a  class="nav_links"></a>
                     </li>
                     <li class="nav_items">
-                        <a href="#" class="nav_links">conocimientos</a>
+                        <a  class="nav_links"></a>
                     </li>
                     <li class="nav_items">
-                        <a href="#" class="nav_links">proyectos</a>
+                        <a  class="nav_links"></a>
                     </li>
                     <li class="nav_items">
-                        <a href="#" class="nav_links">Contacto</a>
+                        <a  class="nav_links"></a>
                     </li>
                 </ul>
             </nav>
@@ -266,16 +273,14 @@
 
         <section class="footer_copy container">
             <div class="footer_social">
+                <p>Github</p>
                 <a href="https://github.com/jonatiuhh" class="footer_icons" target="_blank"><img src="./images/github.svg" class="footer_img"></a>
-                <a href="#" class="footer_icons"><img src="./images/react.svg" class="footer_img"></a>
             </div>
-        <div class="footer_contact_container">
+            <div class="footer_contact_container">
             <img src="./images/mail.svg" class="mail_icon">
-            <h3 class="footer_contact_mail">Correo de contacto:</h3>
+            <h3 class="footer_contact_mail">Correo de contacto  </h3>
         </div>
-        <div class="tooltip">
-            <p class="prevent-select" value="jonathan.sesma@outlook.com" id="my_mail"><span class="tooltiptext" id="myTooltip">Jonathan.sesma@outlook.com</span></p>
-        </div>
+             <p>jonathan.sesma@outlook.com</p>
         </section>
     </footer>
     <script src="./js/slider.js"></script>
